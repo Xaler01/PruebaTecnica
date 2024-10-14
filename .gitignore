@@ -1,0 +1,58 @@
+# Python
+*.py[cod]
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.python-version
+env/
+venv/
+ENV/
+venv/bin/
+env/bin/
+.venv/
+.venv/bin/
+venv/lib/
+env/lib/
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg-info/
+
+# Java
+target/
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+hs_err_pid*
+
+# Karate
+karate-reports/
+karate-output/
+
+# Allure
+allure-results/
+allure-reports/
+reports/allure_results/
+
+# Mac specific files
+.DS_Store
+
+# PyCharm/IntelliJ
+.idea/
+*.iml
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
