@@ -54,7 +54,7 @@ Ejecuta las pruebas automatizadas utilizando behave:
 Después de la ejecución, puede generar y visualizar los reportes con el siguiente comando:
 
     ```bash
-    allure serve reports/allure-results
+    allure serve reports/allure_results
    
 6. **Imagenes de ejemplo de reporte con Allure**  
 

@@ -3,13 +3,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+
 class HomePage:
     def __init__(self, driver):
         self.driver = driver
         self.url = "https://www.demoblaze.com"
         self.samsung_galaxy_s6_link = (By.LINK_TEXT, "Samsung galaxy s6")
-        self.sony_xperia_z5_link = (By.LINK_TEXT, "Sony xperia z5")
-        self.iphone_6_32_gb_link = (By.LINK_TEXT, "Iphone 6 32gb")
         self.add_to_cart_button = (By.XPATH, "//a[text()='Add to cart']")
         self.cart_link = (By.ID, "cartur")
 
